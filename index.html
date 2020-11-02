@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <title>Sarah's Form</title>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Sarah's Form</h1>
+        </header>
+
+        <main>
+            <form action="https://formspree.io/f/xyybjgvo" method="post">
+                <div>
+                    <span class="formText">
+                        First Name
+                    </span>
+                    <span class="formEntry">
+                        <input type="text" name="FirstName">
+                    </span>
+                </div>
+                <div>
+                    <span class="formText">
+                        Last Name 
+                    </span>
+                    <span class="formEntry">
+                        <input type="text" name="LastName">
+                    </span>
+                </div>
+                <div>
+                    <span class="formText">
+                        Email 
+                    </span>
+                    <span class="formEntry">
+                        <input type="text" name="email">
+                    </span>
+                </div>
+                <div>
+                    <span class="formText">
+                        Phone Number
+                    </span>
+                    <span class="formEntry">
+                        <input type="text" name="phone">
+                    </span>
+                </div>
+                <div>
+                    <span class="formText">
+                        Favorite Color
+                    </span>
+                    <select name="favColor">
+                        <option value="red">Red</option>
+                        <option value="orange">Orange</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="green">Green</option>
+                        <option value="blue">Blue</option>
+                        <option value="purple">Purple</option>
+                        <option value="pink">Pink</option>
+                        <option value="brown">Brown</option>
+                        <option value="black">Black</option>
+                        <option value="white">White</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <p>I like these ice cream flavors:</p>
+                    <input type="checkbox" name="icecream" value="vanilla">Vanilla<br/>
+                    <input type="checkbox" name="icecream" value="chocolate">Chocolate<br/>
+                    <input type="checkbox" name="icecream" value="strawberry">Strawberry<br/>
+                    <input type="checkbox" name="icecream" value="mintChoco">Mint Chocolate Chip<br/>
+                    <input type="checkbox" name="icecream" value="cookiesCream">Cookies 'n Cream<br/>
+                    <input type="checkbox" name="icecream" value="peanutButterCup">Peanut Butter Cup<br/>
+                    <input type="checkbox" name="icecream" value="none">None of the above<br/>
+                </div>
+                <div>
+                    <p>Leave us a message :)</p>
+                    <textarea name="description" cols="80" rows="10"></textarea>
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+            
+        </main>
+    </body>
+    
+</html>
